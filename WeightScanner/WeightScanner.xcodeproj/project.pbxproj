@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1278CC2C0E695D003B93A4 /* WeightScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1278CB2C0E695D003B93A4 /* WeightScannerApp.swift */; };
+		4A1278CE2C0E695D003B93A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1278CD2C0E695D003B93A4 /* ContentView.swift */; };
+		4A1278D02C0E6961003B93A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1278CF2C0E6961003B93A4 /* Assets.xcassets */; };
+		4A1278D32C0E6961003B93A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1278D22C0E6961003B93A4 /* Preview Assets.xcassets */; };
+		4A1278DE2C0E6962003B93A4 /* WeightScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1278DD2C0E6962003B93A4 /* WeightScannerTests.swift */; };
+		4A1278E82C0E6962003B93A4 /* WeightScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1278E72C0E6962003B93A4 /* WeightScannerUITests.swift */; };
+		4A1278EA2C0E6962003B93A4 /* WeightScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1278E92C0E6962003B93A4 /* WeightScannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A1278DA2C0E6962003B93A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A1278C02C0E695D003B93A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1278C72C0E695D003B93A4;
+			remoteInfo = WeightScanner;
+		};
+		4A1278E42C0E6962003B93A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A1278C02C0E695D003B93A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1278C72C0E695D003B93A4;
+			remoteInfo = WeightScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1278C82C0E695D003B93A4 /* WeightScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1278CB2C0E695D003B93A4 /* WeightScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScannerApp.swift; sourceTree = "<group>"; };
+		4A1278CD2C0E695D003B93A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A1278CF2C0E6961003B93A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A1278D22C0E6961003B93A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A1278D42C0E6961003B93A4 /* WeightScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeightScanner.entitlements; sourceTree = "<group>"; };
+		4A1278D92C0E6962003B93A4 /* WeightScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1278DD2C0E6962003B93A4 /* WeightScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScannerTests.swift; sourceTree = "<group>"; };
+		4A1278E32C0E6962003B93A4 /* WeightScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1278E72C0E6962003B93A4 /* WeightScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScannerUITests.swift; sourceTree = "<group>"; };
+		4A1278E92C0E6962003B93A4 /* WeightScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1278C52C0E695D003B93A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278D62C0E6962003B93A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278E02C0E6962003B93A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1278BF2C0E695D003B93A4 = {
+			isa = PBXGroup;
+			children = (
+				4A1278CA2C0E695D003B93A4 /* WeightScanner */,
+				4A1278DC2C0E6962003B93A4 /* WeightScannerTests */,
+				4A1278E62C0E6962003B93A4 /* WeightScannerUITests */,
+				4A1278C92C0E695D003B93A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A1278C92C0E695D003B93A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1278C82C0E695D003B93A4 /* WeightScanner.app */,
+				4A1278D92C0E6962003B93A4 /* WeightScannerTests.xctest */,
+				4A1278E32C0E6962003B93A4 /* WeightScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A1278CA2C0E695D003B93A4 /* WeightScanner */ = {
+			isa = PBXGroup;
+			children = (
+				4A1278CB2C0E695D003B93A4 /* WeightScannerApp.swift */,
+				4A1278CD2C0E695D003B93A4 /* ContentView.swift */,
+				4A1278CF2C0E6961003B93A4 /* Assets.xcassets */,
+				4A1278D42C0E6961003B93A4 /* WeightScanner.entitlements */,
+				4A1278D12C0E6961003B93A4 /* Preview Content */,
+			);
+			path = WeightScanner;
+			sourceTree = "<group>";
+		};
+		4A1278D12C0E6961003B93A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A1278D22C0E6961003B93A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A1278DC2C0E6962003B93A4 /* WeightScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1278DD2C0E6962003B93A4 /* WeightScannerTests.swift */,
+			);
+			path = WeightScannerTests;
+			sourceTree = "<group>";
+		};
+		4A1278E62C0E6962003B93A4 /* WeightScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1278E72C0E6962003B93A4 /* WeightScannerUITests.swift */,
+				4A1278E92C0E6962003B93A4 /* WeightScannerUITestsLaunchTests.swift */,
+			);
+			path = WeightScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A1278C72C0E695D003B93A4 /* WeightScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1278ED2C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScanner" */;
+			buildPhases = (
+				4A1278C42C0E695D003B93A4 /* Sources */,
+				4A1278C52C0E695D003B93A4 /* Frameworks */,
+				4A1278C62C0E695D003B93A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightScanner;
+			productName = WeightScanner;
+			productReference = 4A1278C82C0E695D003B93A4 /* WeightScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A1278D82C0E6962003B93A4 /* WeightScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1278F02C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScannerTests" */;
+			buildPhases = (
+				4A1278D52C0E6962003B93A4 /* Sources */,
+				4A1278D62C0E6962003B93A4 /* Frameworks */,
+				4A1278D72C0E6962003B93A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1278DB2C0E6962003B93A4 /* PBXTargetDependency */,
+			);
+			name = WeightScannerTests;
+			productName = WeightScannerTests;
+			productReference = 4A1278D92C0E6962003B93A4 /* WeightScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A1278E22C0E6962003B93A4 /* WeightScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1278F32C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScannerUITests" */;
+			buildPhases = (
+				4A1278DF2C0E6962003B93A4 /* Sources */,
+				4A1278E02C0E6962003B93A4 /* Frameworks */,
+				4A1278E12C0E6962003B93A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1278E52C0E6962003B93A4 /* PBXTargetDependency */,
+			);
+			name = WeightScannerUITests;
+			productName = WeightScannerUITests;
+			productReference = 4A1278E32C0E6962003B93A4 /* WeightScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A1278C02C0E695D003B93A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4A1278C72C0E695D003B93A4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4A1278D82C0E6962003B93A4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A1278C72C0E695D003B93A4;
+					};
+					4A1278E22C0E6962003B93A4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A1278C72C0E695D003B93A4;
+					};
+				};
+			};
+			buildConfigurationList = 4A1278C32C0E695D003B93A4 /* Build configuration list for PBXProject "WeightScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A1278BF2C0E695D003B93A4;
+			productRefGroup = 4A1278C92C0E695D003B93A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A1278C72C0E695D003B93A4 /* WeightScanner */,
+				4A1278D82C0E6962003B93A4 /* WeightScannerTests */,
+				4A1278E22C0E6962003B93A4 /* WeightScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1278C62C0E695D003B93A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1278D32C0E6961003B93A4 /* Preview Assets.xcassets in Resources */,
+				4A1278D02C0E6961003B93A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278D72C0E6962003B93A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278E12C0E6962003B93A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A1278C42C0E695D003B93A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1278CE2C0E695D003B93A4 /* ContentView.swift in Sources */,
+				4A1278CC2C0E695D003B93A4 /* WeightScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278D52C0E6962003B93A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1278DE2C0E6962003B93A4 /* WeightScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1278DF2C0E6962003B93A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1278E82C0E6962003B93A4 /* WeightScannerUITests.swift in Sources */,
+				4A1278EA2C0E6962003B93A4 /* WeightScannerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A1278DB2C0E6962003B93A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A1278C72C0E695D003B93A4 /* WeightScanner */;
+			targetProxy = 4A1278DA2C0E6962003B93A4 /* PBXContainerItemProxy */;
+		};
+		4A1278E52C0E6962003B93A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A1278C72C0E695D003B93A4 /* WeightScanner */;
+			targetProxy = 4A1278E42C0E6962003B93A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A1278EB2C0E6962003B93A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A1278EC2C0E6962003B93A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A1278EE2C0E6962003B93A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeightScanner/WeightScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A1278EF2C0E6962003B93A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeightScanner/WeightScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeightScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4A1278F12C0E6962003B93A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightScanner";
+			};
+			name = Debug;
+		};
+		4A1278F22C0E6962003B93A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeightScanner";
+			};
+			name = Release;
+		};
+		4A1278F42C0E6962003B93A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WeightScanner;
+			};
+			name = Debug;
+		};
+		4A1278F52C0E6962003B93A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH3JD7K438;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mariorotz.WeightScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WeightScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A1278C32C0E695D003B93A4 /* Build configuration list for PBXProject "WeightScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1278EB2C0E6962003B93A4 /* Debug */,
+				4A1278EC2C0E6962003B93A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1278ED2C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1278EE2C0E6962003B93A4 /* Debug */,
+				4A1278EF2C0E6962003B93A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1278F02C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1278F12C0E6962003B93A4 /* Debug */,
+				4A1278F22C0E6962003B93A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1278F32C0E6962003B93A4 /* Build configuration list for PBXNativeTarget "WeightScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1278F42C0E6962003B93A4 /* Debug */,
+				4A1278F52C0E6962003B93A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A1278C02C0E695D003B93A4 /* Project object */;
+}
